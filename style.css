@@ -6,7 +6,7 @@
   box-sizing:border-box;
 }
 body{
-    background: url('https://images.unsplash.com/photo-1602765806321-6613e5f8b95e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ') no-repeat center center fixed;
+    background: url('https://bobreksoundsystem.github.io/bobreklogo_tmp.jpg') no-repeat center center fixed;
   background-size:cover;
   overflow:hidden;
 }
@@ -34,7 +34,7 @@ h1{
     height: 130%;
     z-index: 90;
     position: absolute;
-    background-image: url(http://christmas.devilvision.com/demo/img/glass-ball.png);
+    background-image: url(https://bobreksoundsystem.github.io/bobreklogo_tmp.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

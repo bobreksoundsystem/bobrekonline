@@ -118,4 +118,3 @@ window.addEventListener('resize', function(){
   c.width = w = window.innerWidth;
   c.height = h = window.innerHeight;
 }, false);
-
