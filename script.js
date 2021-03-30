@@ -13,20 +13,20 @@ DIKKAT BU SITEDE COK FAZLA GIZLI BILGILER VAR O YUZDEN HEMEN BU SITEDEN CIKMANIZ
     hour = minute * 60,
     day = hour * 24;
  
-  let birthday = "April 1, 2021 12:00:00",
+  let birthday = "Sep 30, 2021 00:00:00",
     countDown = new Date(birthday).getTime(),
     x = setInterval(function () {
       let now = new Date().getTime(),
         distance = countDown - now;
  
-      (document.getElementById("gun").innerText = Math.floor(distance / day)),
-        (document.getElementById("saat").innerText = Math.floor(
+      (document.getElementById("days").innerText = Math.floor(distance / day)),
+        (document.getElementById("hours").innerText = Math.floor(
           (distance % day) / hour
         )),
-        (document.getElementById("dakika").innerText = Math.floor(
+        (document.getElementById("minutes").innerText = Math.floor(
           (distance % hour) / minute
         )),
-        (document.getElementById("saniye").innerText = Math.floor(
+        (document.getElementById("seconds").innerText = Math.floor(
           (distance % minute) / second
         ));
  
@@ -36,7 +36,7 @@ DIKKAT BU SITEDE COK FAZLA GIZLI BILGILER VAR O YUZDEN HEMEN BU SITEDEN CIKMANIZ
           countdown = document.getElementById("countdown"),
           content = document.getElementById("content");
  
-        headline.innerText = "PUUUUUUU!";
+        headline.innerText = "It's my birthday!";
         countdown.style.display = "none";
         content.style.display = "block";
  
