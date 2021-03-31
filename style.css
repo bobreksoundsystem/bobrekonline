@@ -15,7 +15,7 @@ LUTFEN DIKKAT GIZLI BILGILERE ERISMEYINIZ TESEKKURLER
   box-sizing:border-box;
 }
 body{
-    background: url('https://bobreksoundsystem.github.io/bobreklogo_tmp.jpg') no-repeat center center fixed;
+    background: url('https://bobreksoundsystem.github.io/bobrek_logo_d.png') no-repeat center center fixed;
   background-size:cover;
   overflow:hidden;
 }
@@ -43,7 +43,7 @@ h1{
     height: 130%;
     z-index: 90;
     position: absolute;
-    background-image: url(https://bobreksoundsystem.github.io/bobreklogo_tmp_trans.png);
+    background-image: url(https://bobreksoundsystem.github.io/bobrek_logo_d.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
