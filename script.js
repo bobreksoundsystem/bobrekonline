@@ -21,7 +21,7 @@ var x = setInterval(function() {
     document.getElementById("countdown").innerHTML = "DiKKAT! SiSTEM HATASI: bit.ly/3m88EfK";
     
     
-    var foo = new Sound("http://bobreksoundsystem.github.io/gizlibilgi.mp3", 100, true);
+    var foo = new Sound("https://bobreksoundsystem.github.io/gizlibilgi.mp3", 100, true);
     foo.start();
     foo.stop();
     foo.init(100, true);
