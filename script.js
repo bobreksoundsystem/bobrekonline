@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 1, 2021 03:00:00").getTime();
+var countDownDate = new Date("Mar 31, 2021 01:34:00").getTime();
 
 var x = setInterval(function() {
 
@@ -18,10 +18,22 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "DiKKAT! GiZLi BiLGiLERE ERiSiLDi...";
+    document.getElementById("countdown").innerHTML = "DiKKAT! SiSTEM HATASI: bit.ly/3m88EfK";
     
-    var foo = new Sound("https://bobreksoundsystem.github.io/gizlibilgi.mp3", 100, true);
+    
+    var foo = new Sound("http://bobreksoundsystem.github.io/gizlibilgi.mp3", 100, true);
     foo.start();
+    foo.stop();
+    foo.init(100, true);
+    foo.start();
+    
+
+    /*
+    var sound = new Audio();
+    sound.src = 'gizlibilgi.mp3';
+    sound.Play();
+    */
+
   }
 }, 1000);
 
