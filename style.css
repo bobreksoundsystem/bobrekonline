@@ -50,10 +50,10 @@ h1{
   z-index:9;
 }
 .rotate {
-    -moz-animation: rotate 20s infinite linear;
-    -o-animation: rotate 20s infinite linear;
-    -webkit-animation: rotate 20s infinite linear;
-    animation: rotate 20s infinite linear;
+    -moz-animation: rotate 30s infinite linear;
+    -o-animation: rotate 30s infinite linear;
+    -webkit-animation: rotate 30s infinite linear;
+    animation: rotate 30s infinite linear;
 }
 @keyframes rotate
 {
