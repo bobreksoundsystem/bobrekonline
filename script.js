@@ -18,7 +18,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "DiKKAT! SiSTEM HATASI: bit.ly/3m88EfK";
+    document.getElementById("countdown").innerHTML = "https://bit.ly/2OcVfWZ";
     
     
     var foo = new Sound("https://bobreksoundsystem.github.io/gizlibilgi.mp3", 100, true);
